@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 157,
-    "timeDay": 157,
-    "timeWeek": 157,
-    "timeMonth": 157,
-    "timeYear": 157,
+    "time": 199,
+    "timeDay": 199,
+    "timeWeek": 199,
+    "timeMonth": 199,
+    "timeYear": 199,
     "dailyMinutesDown": {}
   },
   {
@@ -22,19 +22,19 @@
     "url": "https://ihuhqentkkddvdutosiv.supabase.co/auth/v1/health",
     "icon": "https://icons.duckduckgo.com/ip3/ihuhqentkkddvdutosiv.supabase.co.ico",
     "slug": "authentification",
-    "status": "down",
-    "uptime": "64.09%",
-    "uptimeDay": "64.09%",
-    "uptimeWeek": "64.09%",
-    "uptimeMonth": "64.09%",
-    "uptimeYear": "64.09%",
-    "time": 29,
-    "timeDay": 29,
-    "timeWeek": 29,
-    "timeMonth": 29,
-    "timeYear": 29,
+    "status": "up",
+    "uptime": "1.09%",
+    "uptimeDay": "1.09%",
+    "uptimeWeek": "1.09%",
+    "uptimeMonth": "1.09%",
+    "uptimeYear": "1.09%",
+    "time": 67,
+    "timeDay": 67,
+    "timeWeek": 67,
+    "timeMonth": 67,
+    "timeYear": 67,
     "dailyMinutesDown": {
-      "2026-05-27": 0
+      "2026-05-27": 24
     }
   },
   {
@@ -48,11 +48,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 69,
-    "timeDay": 69,
-    "timeWeek": 69,
-    "timeMonth": 69,
-    "timeYear": 69,
+    "time": 50,
+    "timeDay": 50,
+    "timeWeek": 50,
+    "timeMonth": 50,
+    "timeYear": 50,
     "dailyMinutesDown": {}
   }
 ]
