@@ -1,0 +1,45 @@
+name: Customize Page (Fint)
+
+on:
+  workflow_run:
+    workflows: ["Setup CI"]
+    types:
+      - completed
+    branches: [master]
+  workflow_dispatch:
+
+jobs:
+  inject-css:
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout gh-pages
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          fetch-depth: 1
+
+      - name: Inject Fint custom CSS into index.html
+        run: |
+          STYLE_BLOCK='<style>footer{display:none!important}nav ul li:not(:first-child){display:none!important}body main header h1{font-weight:600}</style>'
+          if ! grep -q "FINT-CUSTOM-STYLE" index.html; then
+            # Insert before </head>
+            sed -i "s|</head>|<!-- FINT-CUSTOM-STYLE -->${STYLE_BLOCK}</head>|" index.html
+            echo "CSS injected"
+          else
+            echo "CSS already present, skipping"
+          fi
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "Fint-lab"
+          git config user.email "webdev@cabinetbruel.fr"
+          if ! git diff --quiet; then
+            git add index.html
+            git commit -m "chore: inject Fint custom CSS"
+            git push origin gh-pages
+          else
+            echo "No changes"
+          fi
