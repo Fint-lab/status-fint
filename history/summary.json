@@ -23,17 +23,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/ihuhqentkkddvdutosiv.supabase.co.ico",
     "slug": "authentification",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "64.09%",
+    "uptimeDay": "64.09%",
+    "uptimeWeek": "64.09%",
+    "uptimeMonth": "64.09%",
+    "uptimeYear": "64.09%",
     "time": 29,
     "timeDay": 29,
     "timeWeek": 29,
     "timeMonth": 29,
     "timeYear": 29,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-27": 0
+    }
   },
   {
     "name": "Base de données",
