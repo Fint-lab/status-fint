@@ -1,67 +1,64 @@
 owner: Fint-lab
-  repo: upptime
+repo: status-fint
 
-  sites:
-    - name: Fint App
-      url: https://app.fint.fr
-      expectedStatusCodes:
-        - 200
-        - 301
-        - 302
-        - 401
+sites:
+  - name: Fint App
+    url: https://app.fint.fr
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+      - 401
 
-  status-website:
-    cname: status.fint.fr
-    name: Fint Status
-    introTitle: "Status des services Fint"
-    introMessage: "Statut en temps réel de l'application Fint et de ses services."
-    navbar:
-      - title: Status
-        href: /
-      - title: GitHub
-        href: https://github.com/Fint-lab/upptime
+status-website:
+  cname: status.fint.fr
+  name: Fint Status
+  introTitle: "Status des services Fint"
+  introMessage: "Statut en temps réel de l'application Fint et de ses services."
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/Fint-lab/status-fint
 
-  assignees:
-    - <Fint-lab>
+i18n:
+  activeIncidents: Incidents en cours
+  allSystemsOperational: Tous les services sont opérationnels
+  availability: Disponibilité
+  closedIncidents: Incidents résolus
+  command: Commande
+  commands: Commandes
+  copy: Copier
+  copied: Copié
+  daysAgo: il y a {0} jours
+  degradedPerformance: Performances dégradées
+  description: Description
+  down: Hors service
+  fetchedIn: Récupéré en {0} ms
+  hoursAgo: il y a {0} heures
+  incidentReport: Rapport d'incident
+  lastResponseTime: Dernier temps de réponse
+  minutesAgo: il y a {0} minutes
+  monthsAgo: il y a {0} mois
+  partialOutage: Panne partielle
+  pastIncidents: Incidents passés
+  recentlyUpdated: Récemment mis à jour
+  responseTime: Temps de réponse
+  secondsAgo: il y a {0} secondes
+  status: Statut
+  statusPageCreatedBy: Page créée par
+  subscribeToUpdates: S'abonner aux mises à jour
+  title: Statut
+  upTime: Disponibilité
+  upTimeDay: Disponibilité (24h)
+  upTimeWeek: Disponibilité (7 jours)
+  upTimeMonth: Disponibilité (30 jours)
+  upTimeYear: Disponibilité (1 an)
+  up: Opérationnel
+  websiteDown: Le site est hors service
+  yearsAgo: il y a {0} ans
+  generatedWith: "Generated with Upptime"
+  pageNotFound: Page introuvable
 
-  i18n:
-    activeIncidents: Incidents en cours
-    allSystemsOperational: Tous les services sont opérationnels
-    availability: Disponibilité
-    closedIncidents: Incidents résolus
-    command: Commande
-    commands: Commandes
-    copy: Copier
-    copied: Copié
-    daysAgo: il y a {0} jours
-    degradedPerformance: Performances dégradées
-    description: Description
-    down: Hors service
-    fetchedIn: Récupéré en {0} ms
-    hoursAgo: il y a {0} heures
-    incidentReport: Rapport d'incident
-    lastResponseTime: Dernier temps de réponse
-    minutesAgo: il y a {0} minutes
-    monthsAgo: il y a {0} mois
-    partialOutage: Panne partielle
-    pastIncidents: Incidents passés
-    recentlyUpdated: Récemment mis à jour
-    responseTime: Temps de réponse
-    secondsAgo: il y a {0} secondes
-    status: Statut
-    statusPageCreatedBy: Page créée par
-    subscribeToUpdates: S'abonner aux mises à jour
-    title: Statut
-    upTime: Disponibilité
-    upTimeDay: Disponibilité (24h)
-    upTimeWeek: Disponibilité (7 jours)
-    upTimeMonth: Disponibilité (30 jours)
-    upTimeYear: Disponibilité (1 an)
-    up: Opérationnel
-    websiteDown: Le site est hors service
-    yearsAgo: il y a {0} ans
-    generatedWith: "Generated with Upptime"
-    pageNotFound: Page introuvable
-
-  skipDescriptionUpdate: false
-  skipPoweredByReadme: false
+skipDescriptionUpdate: false
+skipPoweredByReadme: false
