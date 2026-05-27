@@ -1,31 +1,67 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: Fint-lab
+  repo: upptime
 
-sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  sites:
+    - name: Fint App
+      url: https://app.fint.fr
+      expectedStatusCodes:
+        - 200
+        - 301
+        - 302
+        - 401
 
-status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
-  navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+  status-website:
+    cname: status.fint.fr
+    name: Fint Status
+    introTitle: "Status des services Fint"
+    introMessage: "Statut en temps réel de l'application Fint et de ses services."
+    navbar:
+      - title: Status
+        href: /
+      - title: GitHub
+        href: https://github.com/Fint-lab/upptime
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+  assignees:
+    - <Fint-lab>
+
+  i18n:
+    activeIncidents: Incidents en cours
+    allSystemsOperational: Tous les services sont opérationnels
+    availability: Disponibilité
+    closedIncidents: Incidents résolus
+    command: Commande
+    commands: Commandes
+    copy: Copier
+    copied: Copié
+    daysAgo: il y a {0} jours
+    degradedPerformance: Performances dégradées
+    description: Description
+    down: Hors service
+    fetchedIn: Récupéré en {0} ms
+    hoursAgo: il y a {0} heures
+    incidentReport: Rapport d'incident
+    lastResponseTime: Dernier temps de réponse
+    minutesAgo: il y a {0} minutes
+    monthsAgo: il y a {0} mois
+    partialOutage: Panne partielle
+    pastIncidents: Incidents passés
+    recentlyUpdated: Récemment mis à jour
+    responseTime: Temps de réponse
+    secondsAgo: il y a {0} secondes
+    status: Statut
+    statusPageCreatedBy: Page créée par
+    subscribeToUpdates: S'abonner aux mises à jour
+    title: Statut
+    upTime: Disponibilité
+    upTimeDay: Disponibilité (24h)
+    upTimeWeek: Disponibilité (7 jours)
+    upTimeMonth: Disponibilité (30 jours)
+    upTimeYear: Disponibilité (1 an)
+    up: Opérationnel
+    websiteDown: Le site est hors service
+    yearsAgo: il y a {0} ans
+    generatedWith: "Generated with Upptime"
+    pageNotFound: Page introuvable
+
+  skipDescriptionUpdate: false
+  skipPoweredByReadme: false
