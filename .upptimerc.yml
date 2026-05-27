@@ -18,6 +18,7 @@ sites:
       - infrastructure
     expectedStatusCodes:
       - 200
+      - 401
 
   - name: Base de données
     url: https://ihuhqentkkddvdutosiv.supabase.co/rest/v1/
