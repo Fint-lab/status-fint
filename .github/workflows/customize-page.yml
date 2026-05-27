@@ -2,10 +2,9 @@ name: Customize Page (Fint)
 
 on:
   workflow_run:
-    workflows: ["Setup CI"]
+    workflows: ["Setup CI", "Static Site CI", "Uptime CI"]
     types:
       - completed
-    branches: [master]
   workflow_dispatch:
 
 jobs:
