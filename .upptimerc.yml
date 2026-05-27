@@ -2,24 +2,42 @@ owner: Fint-lab
 repo: status-fint
 
 sites:
-  - name: Fint App
+  - name: Application
     url: https://app.fint.fr
+    tags:
+      - application
     expectedStatusCodes:
       - 200
       - 301
       - 302
       - 401
 
+  - name: Authentification
+    url: https://ihuhqentkkddvdutosiv.supabase.co/auth/v1/health
+    tags:
+      - infrastructure
+    expectedStatusCodes:
+      - 200
+
+  - name: Base de données
+    url: https://ihuhqentkkddvdutosiv.supabase.co/rest/v1/
+    tags:
+      - infrastructure
+    expectedStatusCodes:
+      - 200
+      - 401
+
 status-website:
   cname: status.fint.fr
-  name: Fint Status
-  introTitle: "Status des services Fint"
-  introMessage: "Statut en temps réel de l'application Fint et de ses services."
+  name: Fint
+  introTitle: "Statut des services Fint"
+  introMessage: "État en temps réel de la plateforme Fint."
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/Fint-lab/status-fint
+  logoUrl: https://fint.fr/favicon.ico
+  loginCloak: false
+  customHead: '<style>footer{display:none!important}nav ul li:last-child{display:none!important}</style>'
 
 i18n:
   activeIncidents: Incidents en cours
@@ -46,7 +64,7 @@ i18n:
   responseTime: Temps de réponse
   secondsAgo: il y a {0} secondes
   status: Statut
-  statusPageCreatedBy: Page créée par
+  statusPageCreatedBy: ""
   subscribeToUpdates: S'abonner aux mises à jour
   title: Statut
   upTime: Disponibilité
@@ -57,8 +75,8 @@ i18n:
   up: Opérationnel
   websiteDown: Le site est hors service
   yearsAgo: il y a {0} ans
-  generatedWith: "Generated with Upptime"
+  generatedWith: ""
   pageNotFound: Page introuvable
 
-skipDescriptionUpdate: false
-skipPoweredByReadme: false
+skipDescriptionUpdate: true
+skipPoweredByReadme: true
