@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 309,
-    "timeDay": 283,
-    "timeWeek": 352,
-    "timeMonth": 309,
-    "timeYear": 309,
+    "time": 316,
+    "timeDay": 394,
+    "timeWeek": 347,
+    "timeMonth": 316,
+    "timeYear": 316,
     "dailyMinutesDown": {}
   },
   {
@@ -23,16 +23,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/ihuhqentkkddvdutosiv.supabase.co.ico",
     "slug": "authentification",
     "status": "up",
-    "uptime": "99.83%",
+    "uptime": "99.84%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.83%",
-    "uptimeYear": "99.83%",
-    "time": 151,
-    "timeDay": 204,
+    "uptimeMonth": "99.84%",
+    "uptimeYear": "99.84%",
+    "time": 154,
+    "timeDay": 191,
     "timeWeek": 175,
-    "timeMonth": 151,
-    "timeYear": 151,
+    "timeMonth": 154,
+    "timeYear": 154,
     "dailyMinutesDown": {
       "2026-05-27": 24
     }
@@ -48,11 +48,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 72,
-    "timeDay": 88,
-    "timeWeek": 71,
-    "timeMonth": 72,
-    "timeYear": 72,
+    "time": 74,
+    "timeDay": 94,
+    "timeWeek": 72,
+    "timeMonth": 74,
+    "timeYear": 74,
     "dailyMinutesDown": {}
   }
 ]
