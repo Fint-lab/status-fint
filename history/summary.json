@@ -4,17 +4,17 @@
     "url": "https://app.fint.fr",
     "icon": "https://icons.duckduckgo.com/ip3/app.fint.fr.ico",
     "slug": "application",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 442,
-    "timeDay": 585,
-    "timeWeek": 464,
-    "timeMonth": 482,
-    "timeYear": 442,
+    "time": 441,
+    "timeDay": 395,
+    "timeWeek": 431,
+    "timeMonth": 479,
+    "timeYear": 441,
     "dailyMinutesDown": {}
   },
   {
@@ -31,7 +31,7 @@
     "time": 165,
     "timeDay": 368,
     "timeWeek": 214,
-    "timeMonth": 194,
+    "timeMonth": 196,
     "timeYear": 165,
     "dailyMinutesDown": {
       "2026-05-27": 24
@@ -51,7 +51,7 @@
     "time": 60,
     "timeDay": 286,
     "timeWeek": 87,
-    "timeMonth": 74,
+    "timeMonth": 75,
     "timeYear": 60,
     "dailyMinutesDown": {}
   }
